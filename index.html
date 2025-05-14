@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akaabiam Christopher - Fullstack Developer</title>
+  <meta name="description" content="Portfolio of Akaabiam Christopher, a fullstack developer specializing in modern web technologies.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="#home">Akaabiam Christopher</a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-nav-toggle" aria-controls="nav-list" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+      <a href="#contact" class="btn btn-primary hire-btn">Hire Me</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Akaabiam Christopher</h1>
+            <p>A passionate fullstack developer with expertise in building modern web applications.</p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">Contact Me</a>
+              <a href="#projects" class="btn btn-outline">View My Work</a>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-image">
+              <img src="https://res.cloudinary.com/dsznu7kho/image/upload/v1747236506/profile_fhimcf.jpg" alt="Akaabiam Christopher">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section-padding">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <p>I'm a fullstack developer with over 1 year of experience in building web applications. I specialize in JavaScript, Python, Java, Html, Css, React, and modern web technologies. I'm passionate about creating intuitive, performant, and accessible web experiences.</p>
+          <p>My journey in software development began when I built my first website in college. Since then, I've worked with startups and established companies to deliver high-quality software solutions. I enjoy solving complex problems and continuously learning new technologies.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-padding">
+      <div class="container">
+        <div class="section-header">
+          <h2>Skills</h2>
+          <p>Here are some of the technologies and tools I work with:</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-item">JavaScript</div>
+          <!-- <div class="skill-item">TypeScript</div> -->
+          <div class="skill-item">HTML/CSS</div>
+          <!-- <div class="skill-item">Node.js</div> -->
+          <!-- <div class="skill-item">Express</div> -->
+          <!-- <div class="skill-item">MongoDB</div> -->
+          <div class="skill-item">PostgreSQL</div>
+          <!-- <div class="skill-item">GraphQL</div> -->
+          <!-- <div class="skill-item">REST API</div> -->
+          <div class="skill-item">Python</div>
+          <div class="skill-item">Django</div>
+          <div class="skill-item">Flask</div>
+          <div class="skill-item">Git</div>
+          <!-- <div class="skill-item">AWS</div> -->
+          <!-- <div class="skill-item">Docker</div> -->
+          <!-- <div class="skill-item">CI/CD</div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="projects" class="projects section-padding">
+      <div class="container">
+        <div class="section-header">
+          <h2>Projects</h2>
+          <p>Here are some of my recent projects:</p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400" alt="E-commerce Platform">
+            </div>
+            <div class="project-content">
+              <h3>E-commerce Platform</h3>
+              <p class="project-description">A full-featured online shopping platform</p>
+              <p class="project-details">
+                Built with JavaScript, Node.js, Express, and MongoDB. Features include user authentication, product search, cart functionality, and order management.
+              </p>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm" target="_blank" rel="noopener noreferrer">Demo</a>
+                <a href="#" class="btn btn-sm" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400" alt="Task Management App">
+            </div>
+            <div class="project-content">
+              <h3>Task Management App</h3>
+              <p class="project-description">A collaborative task tracking system</p>
+              <p class="project-details">
+                Developed with JavaScript, Node.js, Express, and MongoDB. Includes features like real-time updates, task assignment, due dates, and team collaboration tools.
+              </p>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm" target="_blank" rel="noopener noreferrer">Demo</a>
+                <a href="#" class="btn btn-sm" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400" alt="Real-time Chat Application">
+            </div>
+            <div class="project-content">
+              <h3>Real-time Chat Application</h3>
+              <p class="project-description">Instant messaging platform</p>
+              <p class="project-details">
+                Created with Socket.io, JavaScript, and Express. Features include private messaging, group chats, read receipts, and file sharing capabilities.
+              </p>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm" target="_blank" rel="noopener noreferrer">Demo</a>
+                <a href="#" class="btn btn-sm" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="contact" class="contact section-padding">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>I'm currently available for freelance work and full-time positions. If you'd like to work together or have any questions, feel free to reach out.</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>akaabiamchristopher161882@gmail.com</p>
+              </div>
+              <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <p>linkedin.com/in/akaabiam-christopher</p>
+              </div>
+              <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <p>github.com/AkaabiamChristopher</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="current-year"></span> Akaabiam Christopher. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
